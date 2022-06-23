@@ -1,0 +1,212 @@
+%-------------------------
+% Resume in Latex
+% Author : Sidratul Muntaha Ahmed
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    \textbf{\Huge \scshape Sai kumar Murali krishnan} \\ \vspace{1pt}
+    \small 04-223-33540 $|$ \href{mailto:saikumarmuralikrishnan@gmailcom}{\underline{saikumarmuralikrishnan@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/sai-kumar-murali-krishnan/}{\underline{https://www.linkedin.com/in/sai-kumar-murali-krishnan/}} $|$
+    \href{https://github.com/saikumarmk}{\underline{github.com/saikumarmk}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Monash University}{Expected December 2023}
+      {Bachelor of Applied Data Science Honors}{Melbourne, VIC}
+          \resumeItemListStart
+            \resumeItem{WAM/GPA: 84}
+            \resumeItem{Coursework: Data science related projects, algorithms and data structures and applied mathematics}
+
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Research Assistant}{November 2021 – January 2022}
+      {Monash University}{Melbourne, VIC}
+      \resumeItemListStart
+        \resumeItem{Scraped and wrangled commit diffs from over 30,000 deep-learning libraries}
+        \resumeItem{Extraction and inference of evolution of popular deep-learning libraries}
+        \resumeItem{Experience with AutoML technologies such as AutoKeras and NAS}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Co-founder and Tutor}{February 2020 – Present}
+      {Contour Education}{Melbourne, VIC}
+      \resumeItemListStart
+        \resumeItem{Prepared mathematics worksheets for over 100 students undertaking the VCE}
+        \resumeItem{Taught mathematics for high school students, including preparing and running paid workshops for schools}
+        \resumeItem{Creation of software in the Wolfram Mathematica language for nearly 100 students}
+      \resumeItemListEnd
+      
+     
+    \resumeSubHeadingListEnd
+
+%-----------COMMUNITY AND LEADERSHIP-----------
+\section{Community \& Leadership}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Events Director}{March 2021 – Present}
+      {Monash Association of Coding (MAC)}{Melbourne, VIC}
+      \resumeItemListStart
+        \resumeItem{Assisted and taught 4 coding workshops totalling over 150 attendees}
+        \resumeItem{Ran over 24 weekly LeetCode sessions in which mock technical interviews were conducted}
+        \resumeItem{Employed data analytics to target effective workshop strategies and aid with future planning of events}
+        \resumeItem{Assisted with a two-week hackathon involving over 200 contestants, involved communication with teams, setting up and presenting events and judging submission}
+      \resumeItemListEnd
+      
+    \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Mini Melbourne} $|$ \emph{Fullstack, Live data, React, Mapbox, FastAPI}}{February 2021 -- Present}
+          \resumeItemListStart
+            \resumeItem{A live train map of Melbourne, built during UniHack 2022, winning the PwC Data Analytics prize}
+            \resumeItem{Built using FastAPI for backend to serve data, with React rendering the data with Mapbox}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{SETools} $|$ \emph{Data Visualisation, Python, Scraping}}{February 2021 -- Present}
+          \resumeItemListStart
+            \resumeItem{A web-based visualisation tool for comparing units, coded in Python and Dash}
+          \resumeItemListEnd
+
+          \resumeProjectHeading
+          {\textbf{uwucode} $|$ \emph{Language Design, Rust}}{February 2021 -- Present}
+          \resumeItemListStart
+            \resumeItem{A toy programming language designed in Rust, with a homemade parser to learn about language design}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+
+%
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C/C++, R, Rust, MATLAB, Wolfram Mathematica} \\
+     \textbf{Libraries}{: Data science (Pandas, NumPy, SciPy, PyTorch, Seaborn), FastAPI, Dash/Plotly,} \\
+     \textbf{Mathematics}{: Graph Theory, Computational Mathematics, Linear Algebra, Real+Complex Analysis, Multivariate Calculus, Abstract Algebra}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
