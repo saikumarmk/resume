@@ -34,7 +34,7 @@ jobs:
           # Source file from the origin directory
           source_file: resume.pdf
           # Destination repository
-          destination_repo: saikumarmk/website@main
+          destination_repo: saikumarmk/website
           # Directory to push the file to
           destination_folder: 'urara/assets'
           # Email for the git commit
